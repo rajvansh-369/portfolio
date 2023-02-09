@@ -49,6 +49,36 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <!-- style="filter: blur(8px);" -->
 <!-- onclick="alert('On Progress ! ')" -->
 <!-- style="pointer-events:none" -->
+
+<style>
+  @media only screen and (max-width: 991px) {
+    .full_screen{
+
+      display: none;
+    }
+
+    .mobile_screen{
+      display: block;
+      margin-top: 20px;
+    }
+
+  }
+  @media only screen and (min-width: 600px) {
+    .full_screen{
+
+      display: block;
+    }
+
+    .mobile_screen{
+    
+      display: none;
+    }
+
+  }
+
+  
+
+</style>
 <body  >
     
     <!-- Google Tag Manager (noscript) -->
@@ -484,7 +514,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                       <!-- service content -->
                       <div class="art-service-ib-content">
                         <!-- title -->
-                        <img src="https://skillicons.dev/icons?i=php,laravel,python,js,wordpress,jquery,html,css,bootstrap,mysql,git,arduino" alt="">
+                        <img class="full_screen" src="https://skillicons.dev/icons?i=php,laravel,python,js,wordpress,jquery,html,css,bootstrap,mysql,git,arduino" alt="">
+                        <img class="mobile_screen" src="https://skillicons.dev/icons?i=php,laravel,python,js,wordpress,jquery" alt="">
+                        <img class="mobile_screen" src="https://skillicons.dev/icons?i=html,css,bootstrap,mysql,git,arduino" alt="">
                         <!-- text -->
                         <div class="mb-15">
                          
